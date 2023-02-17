@@ -1,0 +1,253 @@
+body 
+{
+    background-image:url('/images/background.webp');
+}
+
+a:link {color:#8c00ff;}      /* 未访问链接*/
+a:visited {color:#8c00ff;}  /* 已访问链接 */
+a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+a:active {color:#00FF00;}  /* 鼠标点击时 */
+
+/*段落样式*/
+p.one
+{
+	border-style:solid;
+	border-width:1px;
+}
+
+p.serif{font-family:"Times New Roman",Times,serif;
+    border-style:solid;
+	border-width:1px;
+    padding: 20px;
+}
+
+span.serif{
+    font-family:"Times New Roman",Times,serif;
+}
+
+dl.serif{
+    font-family:"Times New Roman",Times,serif;
+}
+
+span a.one{
+    color: rgba(71, 69, 69, 0.462);
+    
+}
+
+span a.one:hover{
+    color: #FF00FF;
+}
+
+span a.one:active{
+    color:#00FF00;
+}
+
+div a.one{
+    color: rgb(50, 21, 119)
+}
+
+
+/*头部样式*/
+header{
+    padding-left: 20%;
+}
+
+header a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: black;
+}
+
+header a:visited{
+    color: black;
+}
+
+header a:active{
+    color:black;
+}
+
+marker{
+    background-color: #00FF00;
+}
+
+
+
+/*导航条*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.one{
+    list-style-type: none;
+    margin-left:50%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(142, 138, 138, 0.112);
+}
+
+ul.two{
+    list-style-type: none;
+    margin-left:30%;
+    margin-top:20%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+dl.two{
+    list-style-type:  none;
+    padding-left: 5%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+dl.three{
+    list-style-type:  disc;
+    padding-left: 5%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+li {
+    float: left;
+}
+
+
+li.one{
+    float: none;
+    display: block;
+}
+
+li.two{
+    float: right;
+}
+
+dt.three{
+    display: list-item;
+    float:none;
+    margin-bottom: 2em;
+}
+
+li a.one{
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a.fix{
+    color: white;
+}
+
+li a:hover{
+    background-color: grey;
+    color:black;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.dropdown a.fix {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+}
+
+.dropdown a.active{
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown a:hover{
+    background-color: grey;
+    color:black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 内容布局*/
+
+.column {
+    float: left;
+    
+  }
+
+.column.left {
+    width: 60%;
+  }
+
+.column.right {
+    width: 40%;
+  }
+
+/* 列后清除浮动 */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+ 
+
+ 
+.card{
+    background-color: rgba(194, 241, 194, 0.467);
+
+}
+
